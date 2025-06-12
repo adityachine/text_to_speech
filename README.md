@@ -1,2 +1,20 @@
-# text_to_speech
-IndianVoiceAI is a Python-based Text-to-Speech (TTS) utility that utilizes the pyttsx3 library to convert text into speech with an Indian English accent. The script supports the following features:  Auto-detection of Indian English voice  Adjustable speaking rate  Listing available system voices  Easy-to-use interactive CLI
+# 🇮🇳 IndianVoiceAI - Text to Speech Tool
+
+**IndianVoiceAI** is a simple and interactive Python script that converts written text into spoken words using a voice with an Indian English accent (if available). It uses the `pyttsx3` text-to-speech library for offline voice synthesis.
+
+## 🎯 Features
+
+- 🎤 Speak any input text aloud with Indian accent
+- ⚙️ Change the speaking rate dynamically
+- 📜 List all available system voices
+- 🖥️ Simple terminal/command-line interface
+- 🔌 Fully offline (no internet required)
+
+## 🛠️ Requirements
+
+- Python 3.6 or higher
+- `pyttsx3` library
+
+Install dependencies:
+```bash
+pip install pyttsx3
